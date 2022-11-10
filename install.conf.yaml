@@ -10,6 +10,10 @@
         ~/.bashrc: bashrc
         ~/.vimrc: vimrc
         ~/.tmux.conf: tmux.conf
+        ~/.tmux-cht-command: ./scripts/tmux-cht-command
+        ~/.tmux-cht-languages: ./scripts/tmux-cht-languages
+        ~/.tmux-cht.sh: ./scripts/tmux-cht.sh
+        ~/.confg/ranger/rc.conf: rc.conf
 
 - shell:
         - [git submodule update --init --recursive, installing submodules]
