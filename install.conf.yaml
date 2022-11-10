@@ -13,7 +13,7 @@
         ~/.tmux-cht-command: ./scripts/tmux-cht-command
         ~/.tmux-cht-languages: ./scripts/tmux-cht-languages
         ~/.tmux-cht.sh: ./scripts/tmux-cht.sh
-        ~/.confg/ranger/rc.conf: rc.conf
+        ~/.config/ranger/rc.conf: rc.conf
 
 - shell:
         - [git submodule update --init --recursive, installing submodules]
