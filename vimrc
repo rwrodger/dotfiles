@@ -25,6 +25,13 @@ endif
 
 " netrw
 filetype plugin on
+" vim-plug
+call plug#begin()
+  Plug 'preservim/NERDTree'
+  Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-commentary'
+  Plug 'junegunn/fzf.vim'
+call plug#end()
 
 " set options
 set number
